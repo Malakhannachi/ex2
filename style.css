@@ -1,0 +1,29 @@
+.boite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.carre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(47, 224, 255);
+    height: 200px;
+    width: 200px;
+    font-size: 5rem;
+    margin: 5px;
+    border: 1PX solid ;
+    transition: all 2s;
+    
+}
+.carre-click{
+    background-color: rgb(139, 23, 23);
+    color: aliceblue;
+    transform: scale(0.9) rotate(360deg);    
+    
+}
+
+
